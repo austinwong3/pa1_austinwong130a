@@ -1,8 +1,13 @@
-all: prog1a
+CXX=g++
 
-prog1a: prog1a.cpp htable.o
-	g++ -g -o prog1a prog1a.cpp htable.o
+CXXFLAGS= -std=c++11 -Wall -g
 
-htable.o: htable.cpp htable.h
-	g++ -c htable.cpp htable.h
+BINARIES=prog1a
 
+all: ${BINARIES}
+
+prog1a: prog1a.o htable.o
+	${CXX} $^ -o $@
+
+clean:
+	/bin/rm -f ${BINARIES} *.o
