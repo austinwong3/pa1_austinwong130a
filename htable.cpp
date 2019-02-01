@@ -67,13 +67,11 @@ void htable::insert(string ip)
     
     if(table[index].size()==2)
     {
-        inserted++;
         single--;
     }
 
     if(table[index].size()==1)
     {
-        inserted++;
         single++;
         empty--;
     }
