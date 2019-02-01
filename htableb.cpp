@@ -32,14 +32,14 @@ htable::htable(int size, int b)
     coeff.push_back(643);
     coeff.push_back(910);
     coeff.push_back(96);*/
-    coeff.push_back(10);
+    /*coeff.push_back(10);
     coeff.push_back(11);
     coeff.push_back(5);
     coeff.push_back(14);
     coeff.push_back(3);
     coeff.push_back(8);
     coeff.push_back(2);
-    coeff.push_back(13);
+    coeff.push_back(13);*/
 
     int numCo = 32/b;
     if (32%b!=0)
