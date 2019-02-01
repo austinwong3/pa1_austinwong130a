@@ -41,15 +41,14 @@ htable::htable(int size, int b)
     coeff.push_back(2);
     coeff.push_back(13);
 
-    //coeffs
-    /*int numCo = 32/b;
+    int numCo = 32/b;
     if (32%b!=0)
         numCo++;
 
     for(int i = 0; i < numCo; i++)
     {
         coeff.push_back(rand() % size);
-    }*/
+    }
 }
 
 int htable::hash(string ip)
