@@ -16,10 +16,12 @@ htable::htable(int size)
     this->single = 0;
     this->max = 0;
     this->maxInd = 0;
+    //tests
     /*coeff.push_back(10);
     coeff.push_back(89);
     coeff.push_back(210);
     coeff.push_back(162);*/
+
     for(int i = 0; i < 4; i++)
     {
         coeff.push_back(rand() % 257);
