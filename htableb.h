@@ -10,7 +10,7 @@ class htable
 {
     public:
         htable(int size, int b);
-        int hash(string ip);
+        int hash(string address);
         void insert(string ip);
         void remove(string ip);
         string lookup(string key);

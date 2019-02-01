@@ -18,20 +18,27 @@ htable::htable(int size, int b)
     this->max = 0;
     this->maxInd = 0;
     this->b = b;
+    //test1
     /*coeff.push_back(9);
     coeff.push_back(24);
     coeff.push_back(55);
     coeff.push_back(9);
     coeff.push_back(20);
     coeff.push_back(58);*/
+
+    //test2
     /*coeff.push_back(127);
     coeff.push_back(159);
     coeff.push_back(124);
     coeff.push_back(136);*/
+
+    //test3
     /*coeff.push_back(104);
     coeff.push_back(643);
     coeff.push_back(910);
     coeff.push_back(96);*/
+
+    //test4
     /*coeff.push_back(10);
     coeff.push_back(11);
     coeff.push_back(5);
@@ -191,7 +198,7 @@ void htable::remove(string ip)
 			
 		
 	}
-	cout << ip << " does not exist" << std::endl;
+	cout <<"Error : could not delete "<< ip << " because it does not exist." << std::endl;
 	return;
 }
 

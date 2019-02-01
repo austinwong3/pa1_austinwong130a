@@ -119,7 +119,7 @@ void htable::remove(string ip)
 			
 		
 	}
-	cout << ip << " does not exist" << std::endl;
+	cout <<"Error : could not delete "<< ip << " because it does not exist." << std::endl;
 	return;
 }
 
